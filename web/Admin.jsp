@@ -1,0 +1,33 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+         <style>
+            body
+            {
+                background-color: lightseagreen;
+                background-image:repeating-linear-gradient;
+                margin-top: 90px;
+            }
+            .container
+            {
+             position: relative;   
+            }
+        </style>
+        </head>
+    <body><center>
+        
+        <h1> Admin Page</h1>
+        <a href="Search.jsp"><input type="button" value="Search Employee Details"/><br><br>
+        <a href="Register.jsp"><input type="button" value="Register Employee Details"/><br><br>
+        <a href="Update.jsp"><input type="button" value="Update Employee Details"/><br><br>
+        <a href="AddAdminpeople.jsp"><input type="button" value="Add Adminpeople"/><br><br>
+            <a href="login.jsp"><input type="button" value="Back to Login Page"/><br><br>
+        
+       </center>
+   
+    </body>
+    
+</html>
